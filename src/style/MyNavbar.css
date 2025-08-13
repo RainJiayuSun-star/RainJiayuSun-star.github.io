@@ -1,0 +1,61 @@
+.custom-navbar {
+  background-color: #232b32 !important;
+}
+
+.brand-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff !important;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  /* No need for margin-right with me-auto */
+}
+
+.nav-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+@media (max-width: 992px) {
+  .brand-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .brand-text {
+    font-size: 1.4rem;
+  }
+}
+
+
+
+.nav-item-spacing {
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 1.5rem !important; /* Equal spacing around items */
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.nav-item-spacing:hover {
+  color: #4fc3f7 !important;
+}
+
+/* Optional: Add underline animation */
+.nav-item-spacing::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #4fc3f7;
+  transition: width 0.3s;
+}
+
+.nav-item-spacing:hover::after {
+  width: 100%;
+}

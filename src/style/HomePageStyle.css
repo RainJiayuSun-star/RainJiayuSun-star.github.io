@@ -1,0 +1,6 @@
+.my-custom-hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 1.5rem 0;
+    width: 100%;
+}

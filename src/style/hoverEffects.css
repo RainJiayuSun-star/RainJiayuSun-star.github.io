@@ -1,0 +1,59 @@
+.experience-card {
+    margin-bottom: 5rem;
+    transition: box-shadow 0.3s ease-in-out;
+    border-left: 3px solid #2d5f85ff;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+    box-shadow: 0 2px 8px 0 rgba(44, 62, 80, 0.08);
+}
+
+.experience-card:hover {
+    box-shadow:
+        0 8px 32px 0 #60a5fa,           /* blue glow */
+        0 1.5px 6px 0 #60a5fa66,        /* soft blue shadow */
+        0 4px 24px 0 rgba(44, 62, 80, 0.18); /* deeper shadow */
+    transform: translateY(-1px) scale(1.01); /* subtle lift */
+}
+
+/* Subtle Shadow Lift */
+.shadow-lift {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 8px 0 rgba(44, 62, 80, 0.08);
+}
+.shadow-lift:hover {
+    box-shadow: 0 8px 24px 0 rgba(44, 62, 80, 0.16);
+    transform: translateY(-2px) scale(1.01);
+}
+
+/* Dramatic Elevation */
+.shadow-dramatic {
+    box-shadow: 0 4px 16px 0 rgba(44, 62, 80, 0.12);
+    transition: box-shadow 0.5s cubic-bezier(.25,.8,.25,1), transform 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.shadow-dramatic:hover {
+    box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.28);
+    transform: translateY(-6px) scale(1.03);
+}
+
+/* Colored Shadow */
+.shadow-colored {
+    margin-bottom: 2rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.shadow-colored:hover {
+    box-shadow: 0 8px 32px 0 rgba(55, 108, 133, 0.25), 0 1.5px 6px 0 rgba(94,203,255,0.12);
+    transform: translateY(-1px) scale(1.005);
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.titlecss {
+    color: #1d2e3b;
+    font-weight: 700;
+}
+
+.companyLinkcss {
+    color:#2d5f85ff;
+}

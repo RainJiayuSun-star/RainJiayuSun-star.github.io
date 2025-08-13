@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Data Science Intern",
+        "location": "Madison, WI",
+        "duration": "May 2025 - Present",
+        "companyName": "Epistemic Analytics Lab",
+        "companyLink": "https://www.epistemicanalytics.org/",
+        "imgLink": "https://wcer.wisc.edu/",
+        "pic_addr": "/wcer.jpg",
+        "description": [
+            "Applied Epistemic Network Analysis (ENA) to model and quantify collaborative discourse patterns across large-scale educational datasets.",
+            "Designed and implemented Python-based data pipelines for cleaning, transforming, and integrating qualitative and quantitative data sources.",
+            "Developed interactive data visualizations to communicate findings on equity, participation, and role distribution within cross-institutional teams.",
+            "Performed statistical modeling and graph-based network analysis to identify drivers of effective team communication and collaboration.",
+            "Collaborated with faculty researchers to translate analytical results into actionable recommendations for improving team structures and processes."        ],
+        "id": "experience1"
+    },
+    {
+        "title": "Undergraduate Research Assistant",
+        "location": "Madison, WI",
+        "duration": "September 2024 - Present",
+        "companyName": "Integrated Diagnostics and Analytics (IDiA) Laboratory for Precision Medicine",
+        "companyLink": "https://idia.labs.wisc.edu/",
+        "imgLink": "https://www.med.wisc.edu/",
+        "pic_addr": "/smph.png",
+        "description": [
+            "developing ai model that automatically recognize the brain tumor (glioma) using Swin-Transformer architecture"
+        ],
+        "id": "experience2"
+    }
+]

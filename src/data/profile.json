@@ -1,0 +1,63 @@
+{
+    "about": {
+        "name": "Rain Sun",
+        "introduction": "A passionate software developer with a love for open-source projects and community engagement.",
+        "location": "Madison, WI",
+        "email": "jsun424@wisc.edu",
+        "website": "https://raindev.com",
+        "socials": {
+            "github": "RainJiayuSun-Star",
+            "linkedin": "rain-sun"
+        },
+        "pronouns": "he/him",
+        "interests": [
+            "Open Source",
+            "Web Development",
+            "Machine Learning",
+            "Community Building"
+        ],
+        "skills": [
+            "JavaScript",
+            "Python",
+            "React",
+            "Node.js",
+            "Docker",
+            "Git"
+        ],
+        "experience": [
+            {
+                "title": "Mock Software Engineer",
+                "company": "Tech Innovations Inc.",
+                "duration": "June 2020 - Present",
+                "description": "Developing scalable web applications and contributing to open-source projects."
+            },
+            {
+                "title": "Mock Web Developer Intern",
+                "company": "Creative Solutions LLC",
+                "duration": "Jan 2019 - May 2020"
+            }
+        ],
+        "hobbies": [
+            "Hiking",
+            "Photography",
+            "Reading Tech Blogs"
+        ]
+    },
+    "education": {
+        "degree": "Bachelor of Science in Computer Science",
+        "university": "University of Wisconsin-Madison",
+        "graduationYear": 2021,
+        "relevantCourses": [
+            "Data Structures and Algorithms",
+            "Web Development",
+            "Machine Learning"
+        ]
+    },
+    "projects": [
+        {
+            "title": "Open Source Contribution Tracker",
+            "description": "A web application to track contributions to open-source projects, built with React and Node.js.",
+            "url": "unknown"
+        }
+    ]
+}
